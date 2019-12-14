@@ -8,7 +8,7 @@
 
 示例：
 
-![image](/images/type_text.gif)
+![image](/prompts_docs_cn/images/type_text.gif)
 
 ```js
 {
@@ -41,7 +41,7 @@
 
 示例：
 
-![image](/images/password.gif)
+![image](/prompts_docs_cn/images/password.gif)
 
 | 参数 | 类型 | 描述  |
 | ----|-----| -----|
@@ -64,7 +64,7 @@
 
 示例：
 
-![image](/images/invisible.gif)
+![image](/prompts_docs_cn/images/invisible.gif)
 
 ```js
 {
@@ -96,7 +96,7 @@
 
 示例：
 
-![image](/images/number.gif)
+![image](/prompts_docs_cn/images/number.gif)
 
 ```js
 {
@@ -135,7 +135,7 @@
 
 示例：
 
-![image](/images/confirm.gif)
+![image](/prompts_docs_cn/images/confirm.gif)
 
 ```js
 {
@@ -164,7 +164,7 @@
 
 示例：
 
-![image](/images/list.gif)
+![image](/prompts_docs_cn/images/list.gif)
 
 ```js
 {
@@ -195,7 +195,7 @@
 
 示例
 
-![image](/images/toggle.gif)
+![image](/prompts_docs_cn/images/toggle.gif)
 
 ```js
 {
@@ -226,7 +226,7 @@
 
 示例：
 
-![image](/images/select.gif)
+![image](/prompts_docs_cn/images/select.gif)
 
 ```js
 {
@@ -265,7 +265,7 @@
 用 <kbd>空格</kbd> 键（也可以使用<kbd>←</kbd>和<kbd>→</kbd>）来切换选择/取消状态，用 <kbd>↑</kbd><kbd>↓</kbd> 切换问题。 用 <kbd>tab</kbd> 来循环列表。默认返回一个包含所选项`value`而非`title`的数组。
 
 
-![image](/images/multiselect.gif)
+![image](/prompts_docs_cn/images/multiselect.gif)
 
 ```js
 {
@@ -313,7 +313,7 @@
 
 示例：
 
-![image](/images/autocomplete.gif)
+![image](/prompts_docs_cn/images/autocomplete.gif)
 
 ```js
 {
@@ -359,7 +359,7 @@ const suggestByTitle = (input, choices) => Promise.resolve(choices.filter(i => i
 
 示例：
 
-![image](/images/date.gif)
+![image](/prompts_docs_cn/images/date.gif)
 
 ```js
 {

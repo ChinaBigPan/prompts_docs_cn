@@ -1,6 +1,6 @@
 ## 使用 (Usage)
 
-![image](/images/Usage.gif)
+![image](/prompts_docs_cn/images/Usage.gif)
 
 ```js
 const prompts = require('prompts');
