@@ -98,7 +98,7 @@ Function 示例
 
 类型：`Function`
 
-问题呈现到控制台时触发。它的第一个参数是[kleur](https://github.com/lukeed/kleur)（这是一个命令行美化的库），函数内的`this`指向当前问题。
+问题呈现到控制台时触发。它的第一个参数是[kleur](https://chinabigpan.github.io/kleur_docs_cn/)（这是一个命令行美化的库），函数内的`this`指向当前问题。
 
 示例：
 
