@@ -3,8 +3,8 @@
         <thead style='text-align:center; vertical-align:middle; font-weight: bold;'>全部的日期格式：</thead>
         <tbody>
             <tr>
-                <td>Token</td>
-                <td>Output</td>
+                <td>格式</td>
+                <td>输出</td>
             </tr>
             <tr>
                 <td colspan="2" style='text-align: center;'>月份 (Month)</td>

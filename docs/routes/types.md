@@ -35,7 +35,7 @@
 
 <br />
 
-> 密码形式的输入项，用以隐藏用户的输入
+> 密码形式的输入项，用以遮蔽用户的输入
 
 设置参数和`text`相类似，也可以为`password`设置`style`
 
@@ -92,7 +92,7 @@
 
 > 用于让用户输入数字
 
-您可以输入数字并使用<kbd>↑</kbd><kbd>↓</kbd>键来增/减值。只允许输入数字。用户按下<kbd>tab</kbd>键会自动输入设置好的`initial`值。
+您可以输入数字并使用<kbd>↑</kbd><kbd>↓</kbd>键来增/减值。只接受数字类型的输入。用户按下<kbd>tab</kbd>键会自动输入设置好的`initial`值。
 
 示例：
 
@@ -131,7 +131,7 @@
 
 > 经典的是/否问题
 
-点击<kbd>y</kbd>/<kbd>n</kbd>来回答yes/no
+键入 <kbd>y</kbd>/<kbd>n</kbd> 来回答yes/no
 
 示例：
 
@@ -154,11 +154,11 @@
 | onRender | `Function` | 渲染时的回调。其中的`this`指向当前问题 |
 | onState | `Function` | 状态改变时的回调。它的参数是一个拥有两个属性的`对象`: `value`和`aborted` |
 
-## 列举 (list)
+## 清单 (list)
 
 **list(message, [initial])**
 
-> 返回值为数组的列举问题
+> 返回值为数组的问题列表
 
 和`text`类型相似，返回值是由`分隔符(seprartor)`分割的字符串组成的数组。
 
@@ -189,7 +189,7 @@
 
 **toggle(message, [initial], [active], [inactive])**
 
-> 互动性的开关/切换问题
+> 交互式的开关/切换问题
 
 使用 <kbd>箭头</kbd> <kbd>tab</kbd> <kbd>空格</kbd> 来切换各个选项。
 
@@ -222,7 +222,7 @@
 
 **select(message, choices, [initial], [hint], [warn])**
 
-> 交互式选择性问题
+> 交互式选择问题
 
 示例：
 
