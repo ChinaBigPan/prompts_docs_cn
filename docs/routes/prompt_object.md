@@ -16,7 +16,7 @@ Prompt对象的作用是定义“问题”和问答类型。几乎所有的问�
 }
 ```
 
-`Function`类型的属性会在询问问题之前调用。
+`Function`类型的属性会在询问问题之前被调用。
 
 函数的参数为`(prev, values, prompt)`，其中：
 
@@ -98,7 +98,7 @@ Function 示例
 
 类型：`Function`
 
-问题呈现到控制台时触发。它的第一个参数是[kleur](https://chinabigpan.github.io/kleur_docs_cn/)（这是一个命令行美化的库），函数内的`this`指向当前问题。
+问题呈现到控制台时触发。它的第一个参数是[kleur对象](https://chinabigpan.github.io/kleur_docs_cn/)（这是一个命令行美化的库），函数内的`this`指向当前问题。
 
 示例：
 

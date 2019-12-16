@@ -1,6 +1,6 @@
 ## 单个问题（Single Prompt）
 
-Prompt接受一个问题对象参数。将回答（response）结果作为对象返回。
+Prompts 接受一个问题对象参数。将回答（response）结果作为对象返回。
 
 ```js
 const prompts = require('prompts');
@@ -18,7 +18,7 @@ const prompts = require('prompts');
 
 ## 问题链（Prompt Chain）
 
-Prompts接受一个问题对象数组。将答案作为对象返回。请保证每个问题都有独一无二的`name`属性，以防止结果发生覆盖
+Prompts 接受一个问题对象数组。将答案作为对象返回。请确保每个问题都有独一无二的`name`属性，以防止结果发生覆盖
 
 ```js
 const prompts = require('prompts');
@@ -51,7 +51,7 @@ const questions = [
 
 ## 动态问题 （Dynamic Prompts）
 
-Prompt属性可以是函数。`type`字段设置为`虚值(falsy)`的Prompt对象将被跳过。
+Prompt属性可以是函数。`type`字段的计算结果为`虚值(falsy)`的 Prompt 配置对象将被跳过。
 
 [falsy 值 (虚值) 是在 Boolean 上下文中认定为 false 的值](https://developer.mozilla.org/zh-CN/docs/Glossary/Falsy)
 

@@ -4,19 +4,19 @@
 类型：`Function`   
 返回值：`Object`
 
-Prompt函数接受您传入的[prompt对象](/routes/prompt_object.html)并将答案作为对象返回。
+Prompt 函数接受您传入的[prompt对象](/routes/prompt_object.html)并将答案作为对象返回。
 
 **参数：prompts**  
 
 类型：`Array | Object`
 
-[prompt对象](/routes/prompt_object.html#类型)数组。  
-您可以点击[这里](https://github.com/terkelg/prompts#-types)查看支持的问题类型。
+[Prompt对象](/routes/prompt_object.html#类型)数组。  
+您可以点击[这里](/routes/types.html)查看支持的问题类型。
 
-通过 <kbd>return</kbd> 或 <kbd>enter</kbd> 键提交答案。  
+Prompt 通过 <kbd>return</kbd> 或 <kbd>enter</kbd> 键提交答案。  
 通过 <kbd>esc</kbd>、<kbd>abort</kbd>、<kbd>ctrl</kbd>+<kbd>c</kbd>、<kbd>ctrl</kbd>+<kbd>d</kbd> 来取消问答。
 
-在取消时，返回的答案对象为空。
+当取消时，返回的答案对象为空。
 
 **参数：options.onSubmit**
 
@@ -26,11 +26,11 @@ Prompt函数接受您传入的[prompt对象](/routes/prompt_object.html)并将�
 在每个问题提交后调用。参数为`(prompt, answer, answers)`，其中：  
 - `prompt` 代表当前的prompt对象。
 - `answer` 代表用户对当前问题的回答结果。
-- `answers`代表截止到当前问题的全部作答结果。
+- `answers`代表从开始到当前问题的作答结果。
 
 支持异步函数。
 
-函数返回`true`的时候退出问答，同时返回截止到当前问题的回答结果，否则继续遍历prompt对象生成问题。
+函数返回`true`的时候退出问答，同时返回开始到当前问题的作答结果，否则继续遍历 prompt 对象生成问题。
 
 ```js
 (async () => {
@@ -51,7 +51,7 @@ Prompt函数接受您传入的[prompt对象](/routes/prompt_object.html)并将�
 
 支持异步函数。
 
-函数返回`true`的时候会继续问答流程，并防止问答流程中断。取消时返回截止到当前问题的回答结果。
+函数返回`true`的时候会继续问答流程，以避免问答流程中断。取消时返回截止到当前问题的回答结果。
 
 ```js
 (async () => {
@@ -68,7 +68,7 @@ Prompt函数接受您传入的[prompt对象](/routes/prompt_object.html)并将�
 
 类型：`Function`
 
-我们可以通过向`prompts.override`方法传入带有回答的对象来预设答案。这个功能在与`process`参数结合使用时有奇效。
+我们可以通过向`prompts.override`方法传入带有回答信息的对象来预设答案。这个功能在与`process`参数结合使用时有奇效。
 
 
 示例：
@@ -104,13 +104,13 @@ prompts.override(require('yargs').argv);
 
 类型：`Function`
 
-以编程方式注入回答（response）。这个功能方便您提前预设一些回答。如果有预设值，那么问答会将其直接返回。
+以编程方式注入回答（response）。这个功能方便您提前预设一些回答。如果配置了预设值，那么问答结果将直接以预设值返回。
 
 **参数: values**
 
 类型：`Array`
 
-待注入值的数组。解析后的值将从内部注入数组中删除。我们可以传入二维数组来为需要多次询问的问题提供答案。我们可以将传入的值设置成`Error`的实例，来模拟用户取消/退出问答流程的情况。
+待注入值的数组。解析后的值将从内部注入数组中删除。我们可以传入二维数组来为需要多次询问的问题提供答案。我们可以将传入的值设置成`Error`的实例，来模拟用户实际取消/退出问答流程的情况。
 
 ```js
 const prompts = require('prompts');
