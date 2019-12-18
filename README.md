@@ -13,10 +13,10 @@
 <table>
     <tbody>
         <tr>
-            <td width='350'>
+            <td width='220'>
                 <img src='./docs/.vuepress/public/images/paidWechatOne.jpeg'/>
             </td>
-            <td width='280'>
+            <td width='200'>
                 <img src='./docs/.vuepress/public/images/paidAlipayOne.jpeg'/>
             </td>
         </tr>
