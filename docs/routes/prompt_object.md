@@ -1,3 +1,7 @@
+---
+title: prompt对象
+---
+
 ## Prompt 对象
 
 ### 类型

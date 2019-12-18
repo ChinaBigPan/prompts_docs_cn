@@ -9,13 +9,18 @@ module.exports = {
         lineNumbers: true
     },
     plugins: [
-        "@vuepress/active-header-links",
-        "@vuepress/back-to-top",
-        "@vuepress/last-updated",
-        "@vuepress/nprogress"
+        ['@vuepress/medium-zoom', true],
+        ['@vuepress/active-header-links', {
+            sidebarLinkSelector: '.sidebar-link',
+            headerAnchorSelector: '.header-anchor'
+        }],
+        ['@vuepress/back-to-top', true],
+        ["@vuepress/last-updated"],
+        ["@vuepress/nprogress"]
     ],
     themeConfig: {
         displayAllHeaders: true, // 默认值：false
+        activeHeaderLinks: true,
         smoothScroll: true,
         nav: [
             {
@@ -57,6 +62,10 @@ module.exports = {
                 title: "Types",
                 path: "/routes/types.html",
                 sidebarDepth: 2
+            },
+            {
+                title: "谢谢",
+                path: "/routes/thanks.html"
             }
         ],
         lastUpdated: "上次更新",

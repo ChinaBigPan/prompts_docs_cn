@@ -1,3 +1,7 @@
+---
+title: 示例
+---
+
 ## 单个问题（Single Prompt）
 
 Prompts 接受一个问题对象参数。将回答（response）结果作为对象返回。

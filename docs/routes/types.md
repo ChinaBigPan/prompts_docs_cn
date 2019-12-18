@@ -1,3 +1,7 @@
+---
+title: '类型'
+---
+
 ## 文本 (text) 
 
 **text (message, [initial], [style])**

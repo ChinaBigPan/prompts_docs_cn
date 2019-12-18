@@ -3,7 +3,7 @@ home: true
 heroImage: /images/prompts_title.png
 heroText: 欢迎来到 Prompts 中文文档
 tagline: 
-actionText: 看一看 →
+actionText: v 2.3.0 →
 actionLink: /routes/install.html
 features:
 - title: 简单易用
