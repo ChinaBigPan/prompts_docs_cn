@@ -1,6 +1,6 @@
 module.exports = {
     title: "Prompts",
-    description: "Lightweight, beautiful and user-friendly interactive prompts",
+    description: "轻量化、美观且易于学习的交互式问答库",
     configureWebpack: {
         resolve: {}
     },
@@ -8,16 +8,6 @@ module.exports = {
     markdown: {
         lineNumbers: true
     },
-    plugins: [
-        ['@vuepress/medium-zoom', true],
-        ['@vuepress/active-header-links', {
-            sidebarLinkSelector: '.sidebar-link',
-            headerAnchorSelector: '.header-anchor'
-        }],
-        ['@vuepress/back-to-top', true],
-        ["@vuepress/last-updated"],
-        ["@vuepress/nprogress"]
-    ],
     themeConfig: {
         displayAllHeaders: true, // 默认值：false
         activeHeaderLinks: true,
