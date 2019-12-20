@@ -1,6 +1,10 @@
 ---
-title: 谢谢
+title: Thankyou
 ---
+<!-- 
+    This is a link to translator's repo, which is used for Chinese developers to tell the problem. 
+    If there is any trouble, please delete the link. 
+-->
 
 ::: tip
 译者会尽可能跟随官方文档更新中文文稿，如果您发现有哪些内容更新不及时或是翻译有错误，请及时通知译者（提issue）

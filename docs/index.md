@@ -12,5 +12,5 @@ features:
   details: 使用 async/await 避免了回调地狱
 - title: 可测试且体验一致
   details: 以编程的形式提交答案。所有提示维持一致的体验
-footer: Powered by Vuepress | Developed By https://github.com/terkelg | Translated By 大笑
+footer: Powered by Vuepress | Developed By https://github.com/terkelg | Translated By 大笑（ChinaBigPan）
 ---
