@@ -3,7 +3,7 @@ title: Thankyou
 ---
 <!-- 
     This is a link to translator's repo, which is used for Chinese developers to tell the problem. 
-    If there is any trouble, please delete the link. 
+    If there is any trouble, please delete the link and route in sidebar. 
 -->
 
 ::: tip
