@@ -1,5 +1,5 @@
 ---
-title: Thankyou
+title: 谢谢
 ---
 <!-- 
     This is a link to translator's repo, which is used for Chinese developers to tell the problem. 
