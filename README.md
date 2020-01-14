@@ -14,10 +14,10 @@
     <tbody>
         <tr>
             <td width='220'>
-                <img src='https://chinabigpan.github.io/prompts_docs_cn/images/paidWechatOne.jpeg'/>
+                <img src='/docs/.vuepress/public/images/paidWechatOne.jpeg'/>
             </td>
             <td width='200'>
-                <img src='https://chinabigpan.github.io/prompts_docs_cn/images/paidAlipayOne.jpeg' />
+                <img src='/docs/.vuepress/public/images/paidAlipayOne.jpeg' />
             </td>
         </tr>
     </tbody>
