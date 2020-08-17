@@ -13,7 +13,7 @@ meta:
     - name: feversion
       content: v 2.3.0
     - name: fetags
-      content: "[{'kind': 'node', 'text': 'Node.js'}, { 'kind': 'default', 'text': '响应头' }]"
+      content: "[{'kind': 'iconNodejs', 'text': 'Node.js'}, {'kind': 'iconinteraction', 'text': '交互式'}]"
 features:
 - title: 简单易用
   details: 它的依赖包很小，且并未拆分为多个小模块
