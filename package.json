@@ -1,7 +1,7 @@
 {
-  "name": "prompts_cn_doc",
-  "version": "1.1.0",
-  "description": "",
+  "name": "prompts_docs_cn",
+  "version": "2.3.0",
+  "description": "轻量化, 美观且易于学习的交互式问答库",
   "main": "index.js",
   "directories": {},
   "scripts": {

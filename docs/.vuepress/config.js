@@ -12,7 +12,12 @@ module.exports = {
         displayAllHeaders: true, // 默认值：false
         activeHeaderLinks: true,
         smoothScroll: true,
+        logo: "/images/logo.png",
         nav: [
+            {
+                text: "大笑文档",
+                link: "http://www.febeacon.com"
+            },
             {
                 text: "首页",
                 link: "/"
